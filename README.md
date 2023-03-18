@@ -1,6 +1,6 @@
 # Chiaki
 
-Chiaki is a tiny (160 byte) HTTPs client for NodeJS. It provides a modern asynchronous interface to NodeJS's default `https.request` method.
+Chiaki is a tiny (300 byte) HTTPs client for NodeJS. It provides a modern asynchronous interface to NodeJS's default `https.request` method.
 
 ```js
 import chiaki from 'chiaki'
@@ -58,7 +58,7 @@ await fetch('https://example.com/login', {
 
 await chiaki({
 	hostname: 'https://example.com',
-	path: 'login',
+	path: '/login',
 	headers: {
 		'User-Agent': 'foo',
 	},
