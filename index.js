@@ -1,11 +1,11 @@
 import https from 'node:https'
-import flush from './flush.js'
+import unstreamify from 'unstreamify'
 
 
 export default async options =>
         new Promise(resolve =>
                 https.request(options, response =>
-			flush(response, body =>
+			unstreamify(response, body =>
                                 resolve({
                                         status: response.statusCode,
                                         headers: response.headers,

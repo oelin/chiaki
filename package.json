@@ -1,6 +1,6 @@
 {
   "name": "chiaki",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tiny HTTPs client for NodeJS.",
   "type": "module",
   "main": "index.js",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/oelin/chiaki/issues"
   },
-  "homepage": "https://github.com/oelin/chiaki#readme"
+  "homepage": "https://github.com/oelin/chiaki#readme",
+  "dependencies": {
+    "unstreamify": "^1.0.0"
+  }
 }

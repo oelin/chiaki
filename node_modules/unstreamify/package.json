@@ -1,0 +1,25 @@
+{
+  "name": "unstreamify",
+  "version": "1.0.0",
+  "description": "Write a readable stream into a buffer.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oelin/unstreamify.git"
+  },
+  "keywords": [
+    "download",
+    "stream",
+    "buffer"
+  ],
+  "author": "oelin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oelin/unstreamify/issues"
+  },
+  "homepage": "https://github.com/oelin/unstreamify#readme"
+}
