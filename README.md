@@ -3,7 +3,7 @@
 Chiaki is a tiny (160 byte) HTTPs client for NodeJS. It provides a modern asynchronous interface to NodeJS's default `https.request` method.
 
 ```js
-import 'chiaki' from chiaki
+import chiaki from 'chiaki'
 
 await chiaki('https://ifconfig.io')
 	.then(response => response.body)
@@ -74,7 +74,7 @@ await chiaki({
 
 #### chiaki.chiaki(options)
 
-Performs an asynchronous HTTPs request. Options can be a string, `URL` or [HTTPs options object](https://nodejs.org/api/http.html#httprequesturl-options-callback). Returns a `Promise` which resolves to a `Response` object. The response contains the following properties:
+Performs an asynchronous HTTPs request. `options` can be a string, `URL` or [HTTPs options object](https://nodejs.org/api/http.html#httprequesturl-options-callback). Returns a `Promise` which resolves to a `Response` object. The response contains the following properties:
 
 * `status` - the response status code.
 * `headers` - the response headers as a plain JavaScript object.

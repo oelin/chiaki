@@ -1,6 +1,6 @@
 {
   "name": "chiaki",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A tiny HTTPs client for NodeJS.",
   "type": "module",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oelin/sayuri.git"
+    "url": "git+https://github.com/oelin/chiaki.git"
   },
   "keywords": [
     "https",
@@ -18,7 +18,7 @@
   "author": "oelin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oelin/sayuri/issues"
+    "url": "https://github.com/oelin/chiaki/issues"
   },
-  "homepage": "https://github.com/oelin/sayuri#readme"
+  "homepage": "https://github.com/oelin/chiaki#readme"
 }
