@@ -1,4 +1,4 @@
-const https = require('node:https');
+import https from 'node:https'
 
 
 export default async options =>

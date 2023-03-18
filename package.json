@@ -1,6 +1,6 @@
 {
   "name": "chiaki",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tiny HTTPs client for NodeJS.",
   "type": "module",
   "main": "index.js",
