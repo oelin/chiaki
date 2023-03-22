@@ -1,20 +1,13 @@
 {
   "name": "chiaki",
-  "version": "1.0.5",
-  "description": "A tiny HTTPs client for NodeJS.",
+  "version": "1.0.6",
+  "description": "A tiny HTTPs client for Node.js.",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oelin/chiaki.git"
   },
-  "keywords": [
-    "https",
-    "client"
-  ],
   "author": "oelin",
   "license": "MIT",
   "bugs": {
@@ -22,6 +15,6 @@
   },
   "homepage": "https://github.com/oelin/chiaki#readme",
   "dependencies": {
-    "unstreamify": "^1.0.0"
+    "unstreamify": "^1.0.1"
   }
 }
