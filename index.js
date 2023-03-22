@@ -7,7 +7,7 @@ export default async options =>
                 https.request(options, response =>
 			unstreamify(response, body =>
                                 resolve({
-                                        status: response.statusCode,
+                                        statusCode: response.statusCode,
                                         headers: response.headers,
                                         body,
                                 })
