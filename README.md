@@ -1,6 +1,6 @@
 # Chiaki
 
-Chiaki is a tiny HTTPs client for Node.js. 
+A tiny HTTPs client for Node.js. 
 
 
 ## Installation
@@ -13,9 +13,9 @@ npm i chiaki
 ## Usage 
 
 ```js
-import chiaki from "chiaki"
+import fetch from "chiaki"
 
-await chiaki(options)
+await fetch(options)
 ```
 
 Where `options` is defined [here](https://nodejs.org/api/https.html#httpsrequesturl-options-callback).
