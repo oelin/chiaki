@@ -15,6 +15,6 @@
   },
   "homepage": "https://github.com/oelin/chiaki#readme",
   "dependencies": {
-    "unstreamify": "^1.0.2"
+    "unstreamify": "^1.0.3"
   }
 }
